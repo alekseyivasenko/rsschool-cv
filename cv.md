@@ -22,3 +22,6 @@ function multiply (a, b){
 ## Education 
 Grodno State Electrotechnical College named after Ivan Schastny (Electrician)
 
+## Language
+1. Russian:native speaker 
+2. English:A1
