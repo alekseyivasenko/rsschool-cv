@@ -1,0 +1,44 @@
+body {
+    font-family: 'Tiro Devanagari Marathi', serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    background-color: #1b1919;
+    color: white;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.header {
+    background-color: #1b1919;
+    color: white;
+}
+
+.footer {
+    background-color: #1b1919;
+    color: white;
+}
