@@ -1,0 +1,97 @@
+body {
+    font-family: 'Tiro Devanagari Marathi', serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    background-color: #1b1919;
+    color: white;
+}
+
+.info2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #1b1919;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header {
+    background-color: #1b1919;
+    color: white;
+    border-bottom: 2px solid #680000;
+}
+
+.footer {
+    background-color: #1b1919;
+    color: white;
+    border-top: 2px solid #680000;
+}
+
+@media (max-width: 842px) {
+    .container{
+        display: block;
+        flex-wrap: wrap;
+    }
+    .menu{
+        flex-direction: column;
+    }
+    .bottom{
+        flex-wrap: wrap;
+    }
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav {
+    padding: 0 20px;
+    line-height: 40px;
+    text-decoration: none;
+    color: white;
+    font-size:20px;
+}
+
+.div {
+    padding: 30px;
+}
+
+.info {
+    text-align: center;
+}
+
+.contacts {
+    list-style: none;
+}
+
+.bottom {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottomlink {
+    text-decoration: none;
+    color: white;
+}
